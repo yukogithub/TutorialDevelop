@@ -34,7 +34,6 @@ public class UserController {
         return "user/list";
     }
 
-
     /** User登録画面を表示 */
     @GetMapping("/register")
     public String getRegister(@ModelAttribute User user) {
